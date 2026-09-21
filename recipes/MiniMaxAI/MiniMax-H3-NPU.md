@@ -210,7 +210,7 @@ This requires the FLASH_ATTN backend and MindIE-SD. H3 automatically applies
 exact power-of-two input pre-scaling (`laser_input_scale=256`) so the
 kernel's fp16 workspace cannot overflow on outlier activations. Measured on
 the FastH3 four-step Dense configuration below, T2VA 15 s at 1344x768, this
-kernel reduced end-to-end latency from ~73 s to ~57 s (about 28%).
+kernel reduced end-to-end latency from ~73 s to ~57 s (about 22%).
 
 
 ## FastH3 four-step on A3
